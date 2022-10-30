@@ -1,0 +1,27 @@
+.cover__content {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-height: 740px;
+    box-sizing: border-box;
+   
+}
+
+@media screen and (max-width: 800px) {
+    .cover__content {
+        min-height: 480px;
+
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .cover__content {
+        min-height: 200px;
+
+    }
+}
+  
+

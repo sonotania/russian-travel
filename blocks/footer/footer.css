@@ -1,0 +1,32 @@
+@import url("./__copyright/footer__copyright.css");
+@import url("./__link/footer__link.css");
+@import url("./__menu/footer__menu.css");
+
+.footer {  
+    width: 100%;
+    max-width: 1184px;
+    margin: 0 auto;
+    padding-bottom: 24px;
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1248px) {
+    .footer {
+        width: 94%;
+    }
+}
+
+
+@media screen and (max-width: 560px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-content: start;
+    }
+}

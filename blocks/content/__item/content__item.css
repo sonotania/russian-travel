@@ -1,0 +1,17 @@
+.content__item {
+    margin: 0 auto 92 auto;
+}
+
+@media screen and (max-width: 800px) {
+    .content__item {
+        width: 100%;
+        margin: 0 auto 88px auto;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .content__item {
+        width: 100%;
+        margin: 0 0 64px 0;
+    }
+}

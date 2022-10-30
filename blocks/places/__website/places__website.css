@@ -1,0 +1,9 @@
+.places__website {
+    align-self: end;
+}
+
+@media screen and (max-width: 460px) {
+    .places__website {
+        margin-bottom: 32px;
+    }
+}

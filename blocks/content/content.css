@@ -1,0 +1,9 @@
+@import url(./__item/content__item.css);
+
+.content {
+    max-width: 1184px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 92px;
+}
