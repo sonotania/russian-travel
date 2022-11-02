@@ -1,17 +1,23 @@
 .intro {
-    width: 83%;
-    margin: 0 auto;
-    padding: 0 48px 92px 48px;
+  width: 76.875%;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
 }
 
-@media screen and (max-width: 800px) {
-    .intro {
-        padding: 0 24px 88px 24px;
-    }
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: 90.625%;
+  }
 }
 
-@media screen and (max-width: 460px) {
-    .intro {
-        padding: 0 16px 88px 16px;
-    }
+@media screen and (max-width: 768px) {
+  .intro {
+    width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    width: 90%;
+  }
 }

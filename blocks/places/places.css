@@ -1,19 +1,23 @@
 .places {
-    width: 90%;
-    max-width: 985px;
-    margin: 0 auto 92px auto;
-    font-family: "Inter", Arial, sans-serif;
-    font-style: normal;
+  width: 76.875%;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
 }
 
-@media screen and (min-width: 800px) {
-    .places {
-        margin: 0 auto 88px auto;  
-    }
+@media screen and (max-width: 1024px) {
+  .places {
+    width: 90.625%;
+  }
 }
 
-@media screen and (max-width: 460px) {
-    .places {
-        margin: 0 auto 64px auto;
-    }
+@media screen and (max-width: 768px) {
+  .places {
+    width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    width: 100%;
+  }
 }

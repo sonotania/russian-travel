@@ -1,8 +1,17 @@
 .cover {
-    width: 100%;
-    max-width: 1184px;
-    margin: 0 auto 92px auto;
+  position: relative;
+  width: 92.5%;
+  height: 57.8vw;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
 }
-   
 
-
+@media (max-width: 1024px) {
+  .cover {
+    height: 62.5vw;
+    width: 100%;
+  }
+}

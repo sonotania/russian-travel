@@ -1,23 +1,30 @@
 .header {
-    max-width: 1184px;
-    margin: 0 auto;
-    padding: 28px 48px 0 48px;
-    font-family: "Inter", Arial, sans-serif;
-    font-style: normal;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    overflow: hidden;
+  max-width: 1184px;
+  width: 92.5%;
+  margin: 0 auto;
+  padding-top: 28px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
-@media screen and (max-width: 800px) {
-    .header {
-        padding: 28px 24px 0 24px;
-    }
+@media screen and (max-width: 1024px) {
+  .header {
+    width: 90.625%;
+  }
 }
 
-@media screen and (max-width: 460px) {
-    .header {
-        padding: 16px 16 px 0 16px;
-    }
+@media screen and (max-width: 768px) {
+  .header {
+    width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    width: 90%;
+    padding-top: 16px;
+  }
 }

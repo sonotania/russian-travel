@@ -1,12 +1,31 @@
 .header__lang-link {
-    margin-right: 16px;
-    margin-bottom: 2px;
-    font-size: 24px;
-    line-height: 28px;
-    color: #FFFFFF;
-    text-decoration: none;
+  margin-right: 18px;
+  margin-bottom: 2px;
+  font-size: 24px;
+  line-height: 117%;
+  color: #ffffff;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
 }
 
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+
+
 .header__lang-link:last-of-type {
-    margin-right: 0;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .header__lang-link {
+    font-size: 3.125vw;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 111%;
+  }
 }
