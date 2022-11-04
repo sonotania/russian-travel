@@ -7,4 +7,4 @@
 В проекте опробованы технологии верстки через flex and grid, отработана адаптивная верстка, 
 в том числе для заголовков через расчет calc.  
 
-Ссылка на Github - https://github.com/sonotania/russian-travel.git
+Ссылка на Github - https://sonotania.github.io/russian-travel/ 
