@@ -11,7 +11,6 @@
 
 @media screen and (max-width: 460px) {
     .content__item {
-        width: 100%;
         margin: 0 0 64px 0;
     }
 }

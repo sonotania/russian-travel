@@ -1,7 +1,7 @@
 .cover {
   position: relative;
   width: 92.5%;
-  height: 57.8vw;
+  min-height: 740px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   background-image: url(../../images/cover-trains.jpg);
@@ -9,9 +9,10 @@
   background-position: center;
 }
 
+
 @media (max-width: 1024px) {
   .cover {
-    height: 62.5vw;
+    min-height: 62.5vw;
     width: 100%;
   }
 }

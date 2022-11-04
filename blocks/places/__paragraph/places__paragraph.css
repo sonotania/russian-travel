@@ -13,13 +13,11 @@
 @media screen and (max-width: 1024px) {
   .places__paragraph {
     max-width: 456px;
-    margin-bottom: 27px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places__paragraph {
-    margin-bottom: 25px;
     font-size: 16px;
   }
 }

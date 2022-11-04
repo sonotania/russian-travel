@@ -4,7 +4,6 @@
 
 @media screen and (max-width: 720px) {
   .footer__menu {
-    display: flex;
     flex-direction: column;
     align-content: flex-start;
     margin-bottom: 48px;
